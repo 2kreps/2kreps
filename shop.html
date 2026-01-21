@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <title>Kauppa – Nordic Wear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">NORDIC WEAR</div>
+  <nav>
+    <a href="index.html">Etusivu</a>
+    <a href="cart.html">Ostoskori</a>
+  </nav>
+</header>
+
+<section class="products">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38">
+    <h3>Huppari</h3>
+    <p>€59</p>
+    <button onclick="addToCart('Huppari', 59)">Lisää koriin</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f">
+    <h3>T-paita</h3>
+    <p>€29</p>
+    <button onclick="addToCart('T-paita', 29)">Lisää koriin</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb">
+    <h3>Takki</h3>
+    <p>€129</p>
+    <button onclick="addToCart('Takki', 129)">Lisää koriin</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
